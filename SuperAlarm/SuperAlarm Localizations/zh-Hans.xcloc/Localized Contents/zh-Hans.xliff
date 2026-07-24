@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="SuperAlarm/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="zh-Hans">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.3" build-num="17C529"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>SuperAlarm</source>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="SuperAlarm/en.lproj/Localizable.strings" source-language="en" target-language="zh-Hans" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.3" build-num="17C529"/>
+    </header>
+    <body>
+      <trans-unit id="%@ 分钟" xml:space="preserve">
+        <source>%@ 分钟</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="%lld 分钟" xml:space="preserve">
+        <source>%lld mins</source>
+        <target>%lld 分钟</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%lld 次" xml:space="preserve">
+        <source>%lld times</source>
+        <target>%lld 次</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="AI 人设" xml:space="preserve">
+        <source>AI Persona</source>
+        <target>AI 人设</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="AI 正在准备今日简报..." xml:space="preserve">
+        <source>AI 正在准备今日简报...</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="AI 管家说" xml:space="preserve">
+        <source>AI 管家说</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="AI管家" xml:space="preserve">
+        <source>AI Butler</source>
+        <target>AI管家</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="API Key" xml:space="preserve">
+        <source>API Key</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="API 配置" xml:space="preserve">
+        <source>API Configuration</source>
+        <target>API 配置</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Author：Watermelon" xml:space="preserve">
+        <source>Author：Watermelon</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Base URL" xml:space="preserve">
+        <source>Base URL</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="English" xml:space="preserve">
+        <source>English</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Made in China" xml:space="preserve">
+        <source>Made in China</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Model Name" xml:space="preserve">
+        <source>Model Name</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Nomelonah's GitHub" xml:space="preserve">
+        <source>Nomelonah's GitHub</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="QwQ" xml:space="preserve">
+        <source>QwQ</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="awa" xml:space="preserve">
+        <source>awa</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="⚠️ 注意: 苹果系统限制本地通知自定义铃声最长 30 秒，过长将播放默认提示音。" xml:space="preserve">
+        <source>⚠️ Note: iOS limits local notification sounds to 30 sec max.</source>
+        <target>⚠️ 注意: 苹果系统限制本地通知自定义铃声最长 30 秒，过长将播放默认提示音。</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="一次性" xml:space="preserve">
+        <source>一次性</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="上传音频" xml:space="preserve">
+        <source>Upload Audio</source>
+        <target>上传音频</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="不重复" xml:space="preserve">
+        <source>Never</source>
+        <target>不重复</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="今天也要开开心心啊" xml:space="preserve">
+        <source>今天也要开开心心啊</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="今日日程" xml:space="preserve">
+        <source>Today's Schedule</source>
+        <target>今日日程</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="保存" xml:space="preserve">
+        <source>Save</source>
+        <target>保存</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="保存设置" xml:space="preserve">
+        <source>Save Settings</source>
+        <target>保存设置</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="关于" xml:space="preserve">
+        <source>About</source>
+        <target>关于</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="关闭贪睡" xml:space="preserve">
+        <source>Off</source>
+        <target>关闭贪睡</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="再睡一会" xml:space="preserve">
+        <source>再睡一会</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="再睡一会 💤" xml:space="preserve">
+        <source>Snooze 💤</source>
+        <target>再睡一会 💤</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="取消" xml:space="preserve">
+        <source>Cancel</source>
+        <target>取消</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="周一" xml:space="preserve">
+        <source>Mon</source>
+        <target>周一</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="周三" xml:space="preserve">
+        <source>Wed</source>
+        <target>周三</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="周二" xml:space="preserve">
+        <source>Tue</source>
+        <target>周二</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="周五" xml:space="preserve">
+        <source>Fri</source>
+        <target>周五</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="周六" xml:space="preserve">
+        <source>Sat</source>
+        <target>周六</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="周四" xml:space="preserve">
+        <source>Thu</source>
+        <target>周四</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="周日" xml:space="preserve">
+        <source>Sun</source>
+        <target>周日</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="周期性" xml:space="preserve">
+        <source>周期性</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="周末" xml:space="preserve">
+        <source>Weekends</source>
+        <target>周末</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="好啊看看今天的行程吧" xml:space="preserve">
+        <source>好啊看看今天的行程吧</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="如: 9:00 开早会" xml:space="preserve">
+        <source>e.g. 9:00 Morning meeting</source>
+        <target>如: 9:00 开早会</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="如: 早上 / 下午 2点" xml:space="preserve">
+        <source>e.g. Morning / 2 PM</source>
+        <target>如: 早上 / 下午 2点</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="完成" xml:space="preserve">
+        <source>Done</source>
+        <target>完成</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="工作日" xml:space="preserve">
+        <source>Weekdays</source>
+        <target>工作日</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="已保存" xml:space="preserve">
+        <source>Saved</source>
+        <target>已保存</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="应用名称" xml:space="preserve">
+        <source>App Name</source>
+        <target>应用名称</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="当前: %@" xml:space="preserve">
+        <source>Current: %@</source>
+        <target>当前: %@</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="当前: 系统默认音效 (cyber_alarm)" xml:space="preserve">
+        <source>Current: Default (cyber_alarm)</source>
+        <target>当前: 系统默认音效 (cyber_alarm)</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="快起床!!!" xml:space="preserve">
+        <source>快起床!!!</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="我醒了 ☀️" xml:space="preserve">
+        <source>I'm awake ☀️</source>
+        <target>我醒了 ☀️</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="新建闹钟" xml:space="preserve">
+        <source>New Alarm</source>
+        <target>新建闹钟</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="日程" xml:space="preserve">
+        <source>Schedule</source>
+        <target>日程</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="日程内容" xml:space="preserve">
+        <source>Schedule Info</source>
+        <target>日程内容</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="日程标题" xml:space="preserve">
+        <source>日程标题</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="日程类型" xml:space="preserve">
+        <source>日程类型</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="早上好狗修金" xml:space="preserve">
+        <source>早上好狗修金</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="早上好狗修金，今天也要开开心心啊" xml:space="preserve">
+        <source>Good morning Master, have a happy day!</source>
+        <target>早上好狗修金，今天也要开开心心啊</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="时间段" xml:space="preserve">
+        <source>Time Slot</source>
+        <target>时间段</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="时间设置" xml:space="preserve">
+        <source>时间设置</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="最大贪睡次数" xml:space="preserve">
+        <source>Max Snoozes</source>
+        <target>最大贪睡次数</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="标签" xml:space="preserve">
+        <source>Label</source>
+        <target>标签</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="框架" xml:space="preserve">
+        <source>Framework</source>
+        <target>框架</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="正在加载AI语录..." xml:space="preserve">
+        <source>Loading AI quote...</source>
+        <target>正在加载AI语录...</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="每天" xml:space="preserve">
+        <source>Every day</source>
+        <target>每天</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="毒舌管家" xml:space="preserve">
+        <source>Toxic Butler</source>
+        <target>毒舌管家</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="测试中" xml:space="preserve">
+        <source>Testing</source>
+        <target>测试中</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="测试连接" xml:space="preserve">
+        <source>Test Connection</source>
+        <target>测试连接</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="添加新日程" xml:space="preserve">
+        <source>Add New Schedule</source>
+        <target>添加新日程</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="添加日程" xml:space="preserve">
+        <source>Add Schedule</source>
+        <target>添加日程</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="点击 + 添加你的第一个闹钟" xml:space="preserve">
+        <source>点击 + 添加你的第一个闹钟</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="点击右上角 + 号添加" xml:space="preserve">
+        <source>Tap + to add an alarm</source>
+        <target>点击右上角 + 号添加</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="点击右上角 + 添加日程" xml:space="preserve">
+        <source>点击右上角 + 添加日程</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="版本" xml:space="preserve">
+        <source>Version</source>
+        <target>版本</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="球球你给个Star吧" xml:space="preserve">
+        <source>Please give a Star!</source>
+        <target>球球你给个Star吧</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="知道了，开始新的一天" xml:space="preserve">
+        <source>知道了，开始新的一天</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="简体中文" xml:space="preserve">
+        <source>简体中文</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="编辑" xml:space="preserve">
+        <source>Edit</source>
+        <target>编辑</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="编辑闹钟" xml:space="preserve">
+        <source>Edit Alarm</source>
+        <target>编辑闹钟</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="设置" xml:space="preserve">
+        <source>Settings</source>
+        <target>设置</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="语言" xml:space="preserve">
+        <source>Language</source>
+        <target>语言</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="贪睡设置" xml:space="preserve">
+        <source>Snooze Settings</source>
+        <target>贪睡设置</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="贪睡间隔" xml:space="preserve">
+        <source>Snooze Interval</source>
+        <target>贪睡间隔</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="输入 DeepSeek API Key" xml:space="preserve">
+        <source>Enter DeepSeek API Key</source>
+        <target>输入 DeepSeek API Key</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="过了太长时间啦，快起床!!!" xml:space="preserve">
+        <source>过了太长时间啦，快起床!!!</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="还没有日程安排" xml:space="preserve">
+        <source>还没有日程安排</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="还没有日程安排哦" xml:space="preserve">
+        <source>No schedule for today</source>
+        <target>还没有日程安排哦</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="还没有设置闹钟" xml:space="preserve">
+        <source>No alarms set yet</source>
+        <target>还没有设置闹钟</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="还没有闹钟" xml:space="preserve">
+        <source>还没有闹钟</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="连接失败" xml:space="preserve">
+        <source>Connection Failed</source>
+        <target>连接失败</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="连接成功" xml:space="preserve">
+        <source>Connection Success</source>
+        <target>连接成功</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="通用" xml:space="preserve">
+        <source>General</source>
+        <target>通用</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="醒了" xml:space="preserve">
+        <source>醒了</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="重复" xml:space="preserve">
+        <source>Repeat</source>
+        <target>重复</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="重复星期" xml:space="preserve">
+        <source>重复星期</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="问候语" xml:space="preserve">
+        <source>Greeting</source>
+        <target>问候语</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="闹钟" xml:space="preserve">
+        <source>Alarm</source>
+        <target>闹钟</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="闹钟名称" xml:space="preserve">
+        <source>Alarm Name</source>
+        <target>闹钟名称</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="闹铃声音" xml:space="preserve">
+        <source>Alarm Sound</source>
+        <target>闹铃声音</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="香软小猫娘" xml:space="preserve">
+        <source>Sweet Catgirl</source>
+        <target>香软小猫娘</target>
+        <note/>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

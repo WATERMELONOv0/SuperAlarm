@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FEE890990E9476B9920310F /* AlarmDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832518BE7BBF285642349AC4 /* AlarmDetailView.swift */; };
+		211E3B6D21C8639BB1E19C54 /* AlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B76882AB1D5F2839E4D9AA /* AlarmModel.swift */; };
+		30D5D672F052BC44DEFE03A8 /* ScheduleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAAFDDE9F5CFE81D1DF18AD /* ScheduleItem.swift */; };
+		3EEFCF06ECC8E467ACCD68EA /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6126B844B1E29E8BF32632AF /* MainTabView.swift */; };
+		56716D7B70A2758EC1A3D137 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D3D314B25239E314F39FA9B /* Localizable.strings */; };
+		692603FDEB4F950E3BD54A01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2DF166A3E9CE80A3B0BC553 /* Assets.xcassets */; };
+		706A0393C47D49A0693BB68F /* AlarmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1957193F4741555996CD41E9 /* AlarmManager.swift */; };
+		71545C9BB007AF337D4999E8 /* AlarmFiringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AC7EE86C60D47A36BDFC07 /* AlarmFiringView.swift */; };
+		7262F8DE287010F232703BEA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7867ADCA1DD4710643CEEE2 /* SettingsView.swift */; };
+		88D8C555D33DA930EEA92F35 /* AlarmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7E3A82D3D01800CEC6C869 /* AlarmViewModel.swift */; };
+		98A986BD3024C4D74F24D79A /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFEC637C4B7E059F5D86179 /* ScheduleView.swift */; };
+		B5998DDCC39E91362A8779AB /* AudioStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34833DED0C67346B678545E9 /* AudioStorageManager.swift */; };
+		D2748F0B4385DA2BF7CE59C1 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9812694C6175CF89EE1175 /* KeychainService.swift */; };
+		D736A5B8D992DA7E8936A935 /* AIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D6B5A800750A7FE76133C5 /* AIService.swift */; };
+		D8A2E04872A75684EB2B107E /* cyber_alarm.wav in Resources */ = {isa = PBXBuildFile; fileRef = A46C13E9156894348CB37EFE /* cyber_alarm.wav */; };
+		D9B81B54B80D428317E2D145 /* AIResponseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DAB76756A940842EC3897C /* AIResponseView.swift */; };
+		E047DB6C2821CE5F66B1863B /* AlarmListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19202BF8BAB3AEB11F539345 /* AlarmListView.swift */; };
+		E73F29F2FB84FEC66C1DE630 /* SuperAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661EC61EDB71291657D4FCEE /* SuperAlarmApp.swift */; };
+		FAB772377D6BE9D7606B914F /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394476A65420B51F22A7A655 /* SettingsViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08DAB76756A940842EC3897C /* AIResponseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIResponseView.swift; sourceTree = "<group>"; };
+		19202BF8BAB3AEB11F539345 /* AlarmListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmListView.swift; sourceTree = "<group>"; };
+		1957193F4741555996CD41E9 /* AlarmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmManager.swift; sourceTree = "<group>"; };
+		1D9812694C6175CF89EE1175 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		2DAAFDDE9F5CFE81D1DF18AD /* ScheduleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleItem.swift; sourceTree = "<group>"; };
+		34833DED0C67346B678545E9 /* AudioStorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioStorageManager.swift; sourceTree = "<group>"; };
+		394476A65420B51F22A7A655 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		6126B844B1E29E8BF32632AF /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		661EC61EDB71291657D4FCEE /* SuperAlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperAlarmApp.swift; sourceTree = "<group>"; };
+		73706ACAE5AE6B0A40311172 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		7CFEC637C4B7E059F5D86179 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		832518BE7BBF285642349AC4 /* AlarmDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmDetailView.swift; sourceTree = "<group>"; };
+		88056CF3CA6185A0A2721742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8E7E3A82D3D01800CEC6C869 /* AlarmViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewModel.swift; sourceTree = "<group>"; };
+		A46C13E9156894348CB37EFE /* cyber_alarm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cyber_alarm.wav; sourceTree = "<group>"; };
+		A85A8ABC944617E25323C055 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A8EF393EE8D51FD3745003E7 /* SuperAlarm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SuperAlarm.entitlements; sourceTree = "<group>"; };
+		B5B76882AB1D5F2839E4D9AA /* AlarmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmModel.swift; sourceTree = "<group>"; };
+		C2DF166A3E9CE80A3B0BC553 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7867ADCA1DD4710643CEEE2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F0AC7EE86C60D47A36BDFC07 /* AlarmFiringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmFiringView.swift; sourceTree = "<group>"; };
+		F8D6B5A800750A7FE76133C5 /* AIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIService.swift; sourceTree = "<group>"; };
+		F910218A3AB562A89E76A174 /* SuperAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		28830C6CA6E6EA70A74FF5C7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8E7E3A82D3D01800CEC6C869 /* AlarmViewModel.swift */,
+				394476A65420B51F22A7A655 /* SettingsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4F5554FC0EF0DBBF8597EEAB /* SuperAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				C2DF166A3E9CE80A3B0BC553 /* Assets.xcassets */,
+				A46C13E9156894348CB37EFE /* cyber_alarm.wav */,
+				88056CF3CA6185A0A2721742 /* Info.plist */,
+				A8EF393EE8D51FD3745003E7 /* SuperAlarm.entitlements */,
+				661EC61EDB71291657D4FCEE /* SuperAlarmApp.swift */,
+				4D3D314B25239E314F39FA9B /* Localizable.strings */,
+				67E6F99ADAE64FE6008BDE69 /* Models */,
+				99E05E15F9122C399373E116 /* Services */,
+				28830C6CA6E6EA70A74FF5C7 /* ViewModels */,
+				CE4F5D972358EAADAD54C55B /* Views */,
+			);
+			path = SuperAlarm;
+			sourceTree = "<group>";
+		};
+		502E8B38E665F8079F6E0CE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F910218A3AB562A89E76A174 /* SuperAlarm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67E6F99ADAE64FE6008BDE69 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B5B76882AB1D5F2839E4D9AA /* AlarmModel.swift */,
+				2DAAFDDE9F5CFE81D1DF18AD /* ScheduleItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8AE71FD85458E19FA2977D61 = {
+			isa = PBXGroup;
+			children = (
+				4F5554FC0EF0DBBF8597EEAB /* SuperAlarm */,
+				502E8B38E665F8079F6E0CE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99E05E15F9122C399373E116 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F8D6B5A800750A7FE76133C5 /* AIService.swift */,
+				1957193F4741555996CD41E9 /* AlarmManager.swift */,
+				34833DED0C67346B678545E9 /* AudioStorageManager.swift */,
+				1D9812694C6175CF89EE1175 /* KeychainService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CE4F5D972358EAADAD54C55B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				08DAB76756A940842EC3897C /* AIResponseView.swift */,
+				832518BE7BBF285642349AC4 /* AlarmDetailView.swift */,
+				F0AC7EE86C60D47A36BDFC07 /* AlarmFiringView.swift */,
+				19202BF8BAB3AEB11F539345 /* AlarmListView.swift */,
+				6126B844B1E29E8BF32632AF /* MainTabView.swift */,
+				7CFEC637C4B7E059F5D86179 /* ScheduleView.swift */,
+				D7867ADCA1DD4710643CEEE2 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		583B343D0FB0DDAFDF215492 /* SuperAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E0A189A158E56CFCD16DB2C /* Build configuration list for PBXNativeTarget "SuperAlarm" */;
+			buildPhases = (
+				60426A5865B935DA7CEABD75 /* Sources */,
+				7B950A964333D0849B91424B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperAlarm;
+			packageProductDependencies = (
+			);
+			productName = SuperAlarm;
+			productReference = F910218A3AB562A89E76A174 /* SuperAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		417AFABAAC0EBAE609D55894 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					583B343D0FB0DDAFDF215492 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 68DA896B051A65CA0B9C4E3C /* Build configuration list for PBXProject "SuperAlarm" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				"zh-Hans",
+			);
+			mainGroup = 8AE71FD85458E19FA2977D61;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 502E8B38E665F8079F6E0CE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				583B343D0FB0DDAFDF215492 /* SuperAlarm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B950A964333D0849B91424B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692603FDEB4F950E3BD54A01 /* Assets.xcassets in Resources */,
+				56716D7B70A2758EC1A3D137 /* Localizable.strings in Resources */,
+				D8A2E04872A75684EB2B107E /* cyber_alarm.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60426A5865B935DA7CEABD75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B81B54B80D428317E2D145 /* AIResponseView.swift in Sources */,
+				D736A5B8D992DA7E8936A935 /* AIService.swift in Sources */,
+				0FEE890990E9476B9920310F /* AlarmDetailView.swift in Sources */,
+				71545C9BB007AF337D4999E8 /* AlarmFiringView.swift in Sources */,
+				E047DB6C2821CE5F66B1863B /* AlarmListView.swift in Sources */,
+				706A0393C47D49A0693BB68F /* AlarmManager.swift in Sources */,
+				211E3B6D21C8639BB1E19C54 /* AlarmModel.swift in Sources */,
+				88D8C555D33DA930EEA92F35 /* AlarmViewModel.swift in Sources */,
+				B5998DDCC39E91362A8779AB /* AudioStorageManager.swift in Sources */,
+				D2748F0B4385DA2BF7CE59C1 /* KeychainService.swift in Sources */,
+				3EEFCF06ECC8E467ACCD68EA /* MainTabView.swift in Sources */,
+				30D5D672F052BC44DEFE03A8 /* ScheduleItem.swift in Sources */,
+				98A986BD3024C4D74F24D79A /* ScheduleView.swift in Sources */,
+				7262F8DE287010F232703BEA /* SettingsView.swift in Sources */,
+				FAB772377D6BE9D7606B914F /* SettingsViewModel.swift in Sources */,
+				E73F29F2FB84FEC66C1DE630 /* SuperAlarmApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D3D314B25239E314F39FA9B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A85A8ABC944617E25323C055 /* en */,
+				73706ACAE5AE6B0A40311172 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		275EF21DBAC86235570A4B51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SuperAlarm/SuperAlarm.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9VULWCX423;
+				INFOPLIST_FILE = SuperAlarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.superalarm.noah.app;
+				PRODUCT_NAME = SuperAlarm;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2C8F68DD02792B29767441AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SuperAlarm/SuperAlarm.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9VULWCX423;
+				INFOPLIST_FILE = SuperAlarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.superalarm.noah.app;
+				PRODUCT_NAME = SuperAlarm;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C8FFB0130ABE440634D9C534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SuperAlarm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.superalarm.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F096D665FD048FC5C7607EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SuperAlarm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.superalarm.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E0A189A158E56CFCD16DB2C /* Build configuration list for PBXNativeTarget "SuperAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C8F68DD02792B29767441AD /* Debug */,
+				275EF21DBAC86235570A4B51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		68DA896B051A65CA0B9C4E3C /* Build configuration list for PBXProject "SuperAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F096D665FD048FC5C7607EFB /* Debug */,
+				C8FFB0130ABE440634D9C534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 417AFABAAC0EBAE609D55894 /* Project object */;
+}
