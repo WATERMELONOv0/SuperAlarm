@@ -1,4 +1,4 @@
-# SuperAlarm ⏰ (超级闹钟)
+# SuperAlarm 
 
 [English](#english) | [中文](#中文)
 
